@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>Feedback TA Béc cọp</nav>
+
+    <section class="main-form-container">
+      <div class="main-form">
+        <h2>Thầy Béc cọp dạy có hay không???????</h2>
+        <div id="point-container" class="point-container"></div>
+        <form id="feedback-form" class="feedback-form">
+          <input
+            type="text"
+            placeholder="Please enter your feedback"
+            name="content"
+            id="form-input"
+          />
+          <button>Send</button>
+        </form>
+
+        <div id="error" class="error">Text must be at least 10 characters</div>
+      </div>
+    </section>
+
+    <section class="result-container">
+      <div class="result">
+        <div class="total-review"><b id="total-review">0</b> Reviews</div>
+
+        <div class="average-point">
+          Average Rating: <b id="average-point">0</b>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback-container" class="feedback-container">
+      <!-- <div class="feedback-item">
+        <div class="point"> 10 </div>
+        <div class="content"> 0 </div>
+        <div class="action-container">
+          <ion-icon name="share-outline"></ion-icon>
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+        </div> -->
+    </section>
+
+
+    <script src="./app.js"></script>
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

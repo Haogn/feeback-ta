@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #201a31;
+}
+
+nav {
+    background-color: #0f0d21;
+    color: #d95e85;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.main-form-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-form-container .main-form {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main-form-container .main-form h2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.main-form-container .main-form .point-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.main-form-container .main-form .point-container .point, .point {
+    background-color: #dddddd;
+    color: rgb(88, 88, 88);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.active {
+    background-color: #d95e85!important;
+    color: white!important;
+}
+
+.main-form-container .main-form .feedback-form {
+    position: relative;
+}
+
+.main-form-container .main-form .feedback-form input {
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.main-form-container .main-form .feedback-form button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 6px 24px;
+    font-size: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.error {
+    font-size: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: purple;
+    display: none;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+}
+.result-container .result {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.feedback-container .feedback-item {
+    width: 500px;
+    background-color: white;
+    position: relative;
+    border-radius: 4px;
+    padding: 20px 30px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.feedback-container .feedback-item .point {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #d95e85;
+    color: white;
+}
+
+.feedback-container .feedback-item .action-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.feedback-container .feedback-item .action-container ion-icon {
+    cursor: pointer;
+}
